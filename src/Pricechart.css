@@ -1,0 +1,14 @@
+.btns{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: gray;
+}
+.btns:hover,
+.btns:focus {
+  background-color: white;
+  color: black;
+}

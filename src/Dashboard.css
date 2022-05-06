@@ -1,0 +1,38 @@
+#mainDash {
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px white;
+    width: 80%;
+    margin: 0 auto;
+}
+#realtime {
+    padding: 0px;
+    background-color: rgb(156, 189, 201);
+}
+#chart {
+    border: none;
+    padding-right: 0px;
+    color: black;
+}
+#selection {
+    border-bottom-left-radius: 5px;
+    background-color: grey;
+    color: white;
+    border-top: solid 2px white; 
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    width: 100%;
+    height: 50px;
+}
+@media screen and (max-width: 600px) {
+    #mainDash {
+        width: 100%;
+        border-radius: 0px;
+        border: solid 1px white;
+    }
+    #selection {
+        border-bottom-left-radius: 0px;
+        border-top: solid 1px white; 
+    }
+  }
